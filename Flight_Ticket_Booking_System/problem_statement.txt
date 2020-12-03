@@ -1,0 +1,21 @@
+ --> Flight Ticket Booking System  <--
+
+:: Assumptions :: 
+Only 2 flights
+There fixed no of seats in each flight -- 18 
+Seats are classified into 2 kinds 1. Business 2. Economy
+Each User can book any number of tickets in any particular class.
+We can provision for meal at the time of booking. Each meal per seat costs 200 bucks.
+Initial Pricing of Business class seat is 2000 bucks
+Initial Procong of Economy class seat is 1000 bucks
+User can cancel the tickets booked. Cancellation charge is 20% of total cost for that booking.
+
+:: Surge Pricing ::
+After each successfull booking, seat price of respective class and flight gets incresed by 200 bucks. This change is in effective regardless of cancellations performed.
+
+:: Program handles the following cases ::
+Booking of ticket.
+Cancellation of tcket.
+Print Seats Avaliability.
+Print Seats who have ordered meals.
+Print Individual flight booking summary.
